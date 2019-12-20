@@ -1,12 +1,13 @@
+@font-face {
+font-family: 'arialmt';
+src: url('arial-mt-cufonfonts/');
+}
 *
 {
     margin: 0;
     padding: 0;
 }
-body
-{
-    font-family: Arial, Verdana, sans-serif;
-}
+
 .container
 {
     width: 1280px;
@@ -25,7 +26,7 @@ body
 }
 .product_name
 {
-    font-family: 'Arial MT Light';
+    font-family: 'arialmt';
     font-size: 60px;
     font-weight: 400;
     padding-top: 50px;
@@ -48,7 +49,7 @@ body
 }
 nav
 {
-    font-family: 'Arial MT Light';
+    font-family: 'arialmt';
     font-size: 20px;
     height: 127px;
     color: #fff;
@@ -57,75 +58,168 @@ nav
 	clear: both;
 }
 li{
+	/* width: 422px;
+	height: 127px; */
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+	color: #ffffff;
+	font-family: "arialmt";
+	font-size: 20px;
+	font-weight: 400;
+line-height: 36px;
 	list-style-type: none;
 }
-
-main
-{
-    padding-right: 50px;
-    padding-left: 50px;
+section.about{
+	width: 1280px;
+	height: 323px;
+	background-color: #fff;
 }
-/* h1
-{
-   	font-size: 60px;
-    font-weight: 400;
-    width: 367px;
-    height: 44px;
-    color: #fff;
-    text-shadow: 1px 1px 0 rgba(0, 0, 0, .3);
-} */
-/* ul
-{
-    font-family: 'Arial MT';
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 36px;
-    
-
-    width: 422px;
-    height: 127px;
-    padding-right: 50px;
-    padding-left: 50px;
-
-    color: #fff;
-    text-shadow: 1px 1px 0 rgba(0, 0, 0, .3);
+section.about h3{
+	/* width: 254px; */
+	/* height: 28px; */
+	color: #445161;
+	font-family: "arialmt";
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 36px;
+	padding-left: 50px;
+	padding-top: 49px;
+	padding-bottom: 20px;
 }
-header.top
-{
-    padding-right: 50px;
-    
-    padding-left: 50px;
+.about_desc1 {
+	width: 649px;
+	/* height: 63px; */
+	color: #333333;
+	font-family: "arialmt";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	padding-left: 50px;
+	float: left;
 }
-
-ul
-{
-    float: left;
-}
-.blockimg
-{
-    float: right;
-  
-
-    width: 469px;
-    height: 214px;
-
-    background-color: #fff;
+figure.video{
+	width: 430px;
+	height: 245px;
+	background-color: #445161;
+	float: right;
+	margin-top: -70px;
+	margin-right: 50px;
 }
 
-.item
-{
-    
-    width: 1280px;
-    height: 487px;
-
-    background-color: #fff;
+h3.dignity{
+	width: 451px;
+	/* height: 28px; */
+	color: #445161;
+	font-family: "arialmt";
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 36px;
+	margin: 0 auto;
+	padding-top: 50px;
+	padding-bottom: 29px;
 }
 
-.form
-{
-    width: 1280px;
-    height: 323px;
+.plus-box{
+	width: 32px;
+	height: 32px;
+	background-color: #445161;
+	float: left;
+	margin-left: 50px;
+	margin-top: 5px;
+	align-items: center; 
+	justify-items: center;
+	flex-wrap: wrap;
 
-    background-color: #445162;
 }
- */
+.plus-box img{
+	align-items: center; 
+	justify-items: center;
+	flex-wrap: wrap;
+	position: absolute;
+
+}
+
+section.pluses ul li{
+	width: 526px;
+	/* height: 63px; */
+	color: #333333;
+	font-family: "arialmt";
+	font-size: 14px;
+	font-weight: 200;
+	line-height: 24px;
+	float: left;
+	padding-left: 9px;
+	margin-bottom: 35px;
+	cb
+}
+
+
+
+.item_scrin {
+	width: 1280px;
+	height: 487px;
+	background-color: #fff;
+	clear: both;
+}
+.scrin {
+	width: 138px;
+	height: 22px;
+	color: #445161;
+	font-family: "arialmt";
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 36px;
+	margin: 0 auto;
+	padding-top: 51px;
+	padding-bottom: 35px;
+}
+article{
+	width: 200px;
+	height: 150px;
+	background-color: #445161;
+	float: left;
+	clear: both;
+
+}
+.img{
+	float: left;
+
+}
+article figure{
+	width: 200px;
+	height: 150px;
+	float: left;
+
+}
+.desc{
+	/* width: 310px; */
+	height: 23px;
+	color: #445161;
+	font-family: "arialmt";
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 30px;
+	padding-left: 15px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
